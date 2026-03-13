@@ -876,4 +876,11 @@ footer {
     .news-card {
         flex-direction: column;
     }
+    /* ===== MOBILE RESPONSIVE - TOP BAR HIDE ===== */
+@media (max-width: 768px) {
+    .top-bar {
+        display: none !important;
+    }
+}
+
 }
